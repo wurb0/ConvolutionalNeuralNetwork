@@ -3,6 +3,7 @@
 This project demonstrates how to build a convolutional neural network (CNN) for classifying images from the Fashion-MNIST dataset using PyTorch, with hyperparameter optimization via Optuna. The notebook includes data preprocessing, augmentation, training, evaluation, and automated tuning of model hyperparameters.
 
 ## 📂 Project Structure
+
 .
 ├── Fashion-MNIST-CNN.ipynb   # Jupyter notebook containing the full code
 ├── fashion-mnist_train.csv   # Fashion-MNIST CSV dataset
