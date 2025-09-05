@@ -7,11 +7,21 @@ This project demonstrates how to build a convolutional neural network (CNN) for 
 
 The model is trained using the best hyperparameters found by Optuna. Training progress is logged per epoch with loss, training accuracy, and test accuracy.
 
-Final Results:
-Epoch	Loss	Train Accuracy	Test Accuracy
-28	0.2829	0.8969	0.9042
-29	0.2846	0.9110	0.9158
-30	0.2805	0.9117	0.9134
+After training with the best hyperparameters found by Optuna:
+
+Epoch 28/30, Loss: 0.2829, Train Acc: 0.8969, Test Acc: 0.9042
+
+Epoch 29/30, Loss: 0.2846, Train Acc: 0.9110, Test Acc: 0.9158
+
+Epoch 30/30, Loss: 0.2805, Train Acc: 0.9117, Test Acc: 0.9134
+
+## ✅ Observation:
+
+The model achieves ~91% accuracy on both training and test sets.
+
+Minimal overfitting observed.
+
+Loss is stable, indicating good convergence.
 
 
 ## 📂 Project Structure
