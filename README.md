@@ -1,14 +1,14 @@
-Fashion-MNIST CNN Classifier with Optuna Hyperparameter Tuning
+# Fashion-MNIST CNN Classifier with Optuna Hyperparameter Tuning
 
 This project demonstrates how to build a convolutional neural network (CNN) for classifying images from the Fashion-MNIST dataset using PyTorch, with hyperparameter optimization via Optuna. The notebook includes data preprocessing, augmentation, training, evaluation, and automated tuning of model hyperparameters.
 
-📂 Project Structure
+## 📂 Project Structure
 .
 ├── Fashion-MNIST-CNN.ipynb   # Jupyter notebook containing the full code
 ├── fashion-mnist_train.csv   # Fashion-MNIST CSV dataset
 ├── README.md                 # Project overview
 
-🛠 Features
+## 🛠 Features
 
 Custom PyTorch Dataset for handling Fashion-MNIST images.
 
@@ -38,7 +38,7 @@ Checks for overfitting by comparing train and test accuracy per epoch.
 
 Device Agnostic: Automatically detects and uses GPU (CUDA or Apple MPS) if available, else CPU.
 
-📦 Dependencies
+## 📦 Dependencies
 
 Python 3.8+
 
@@ -52,7 +52,7 @@ optuna
 Install dependencies via pip:
 pip install torch torchvision pandas scikit-learn matplotlib optuna
 
-🚀 Usage
+## 🚀 Usage
 
 Clone the repository:
   git clone https://github.com/your-username/fashion-mnist-cnn.git
@@ -72,7 +72,7 @@ Evaluate the model on the test set
 
 Observe the train and test accuracy per epoch to check for overfitting.
 
-📈 Results
+## 📈 Results
 
 The notebook prints training loss, training accuracy, and test accuracy at each epoch.
 
