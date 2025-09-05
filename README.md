@@ -2,6 +2,18 @@
 
 This project demonstrates how to build a convolutional neural network (CNN) for classifying images from the Fashion-MNIST dataset using PyTorch, with hyperparameter optimization via Optuna. The notebook includes data preprocessing, augmentation, training, evaluation, and automated tuning of model hyperparameters.
 
+
+## 📈 Training & Results
+
+The model is trained using the best hyperparameters found by Optuna. Training progress is logged per epoch with loss, training accuracy, and test accuracy.
+
+Final Results:
+Epoch	Loss	Train Accuracy	Test Accuracy
+28	0.2829	0.8969	0.9042
+29	0.2846	0.9110	0.9158
+30	0.2805	0.9117	0.9134
+
+
 ## 📂 Project Structure
 
 .
@@ -78,4 +90,6 @@ Observe the train and test accuracy per epoch to check for overfitting.
 The notebook prints training loss, training accuracy, and test accuracy at each epoch.
 
 Optuna automatically finds the hyperparameters that maximize validation accuracy.
+
+
 
